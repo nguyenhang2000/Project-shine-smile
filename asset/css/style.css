@@ -439,3 +439,44 @@ header section {
 .team__icon {
   justify-content: center;
 }
+
+/* ==================== CTA ==================== */
+
+.cta {
+  padding-top: 160px;
+  padding-bottom: 105px;
+}
+
+.cta__img-phone {
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  position: absolute;
+  left: 70px;
+  bottom: 0;
+}
+
+.cta .body {
+  padding: 76px 70px 75px 514px;
+  border-radius: 4px;
+  background: #2e80ce;
+  position: relative;
+}
+
+h2.cta__heading {
+  color: #fff;
+}
+
+p.cta-desc {
+  margin-top: 18px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.66;
+}
+
+.cta-app {
+  margin-top: 38px;
+  display: flex;
+  gap: 28px;
+}
